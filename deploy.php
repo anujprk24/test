@@ -46,3 +46,4 @@
 </pre>
 </body>
 </html>
+https://lukemarsden.github.io/docs/getting-started-guides/kubeadm/
