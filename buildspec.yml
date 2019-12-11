@@ -2,7 +2,7 @@ version: 0.2
 phases:
   post_build:
     commands:
-      - aws s3 cp --recursive --acl public-read ./Assignment1 s3://${SiteBucketName}/
+      - aws s3 cp --recursive --acl public-read ./Assignment1 s3://${bucketname}/
 artifacts:
   type: zip
   files:
